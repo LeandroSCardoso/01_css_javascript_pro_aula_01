@@ -87,10 +87,11 @@ table {
     border-style: solid;
   }
   
-  td {
+  td, thead {
     border-width: 1px;
     border-style: solid;
     padding: 10px;
+    border-color: #2c3b47;
   }
   
 
