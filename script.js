@@ -27,9 +27,6 @@ async function CadastraLivro() {
         //chamando a função criada para encapsular o fetch
         const retorno = await PostComAPI(url, body)
 
-        //debug
-        console.log(retorno)
-
         /* NÃO TEM CAMPO EM BRANCO PODE SEGUIR */
         aviso.style.display = "inline-block"
         aviso.style.backgroundColor = '#207868'
