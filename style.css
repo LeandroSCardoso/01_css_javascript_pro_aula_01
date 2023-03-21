@@ -1,7 +1,115 @@
-.teste {
-  background-color: black;  
+/* CONFIGURANDO O PADRÃO */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c3cfd9;
 }
 
-.teste2 {
-    background-color: black;  
+.container {
+    position: relative;
+      max-width: 960px;
+      margin: 0 auto;
   }
+
+/* HEADER */
+header {
+    background-color: #e3e8ed;
+    padding: 10px;
+}
+
+header a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header a.active {
+    background-color: #2c3b47;
+}
+
+h1 {
+
+font-family: Arial, Helvetica, sans-serif;    
+   font-style: normal; 
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.botao {
+    background-color: #4b5c6b;
+    padding: 10px 20px 10px 20px;
+    margin-right: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0;
+    flex-grow: 1;
+}
+
+main {
+    margin: 0px 10px 0px -10px;
+}
+
+
+.formulario {
+    margin: 10px;
+}
+
+
+.caixa_texto {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #adbbc7;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+input::placeholder {
+    color: #b3c0cb;
+}
+
+.but_cadastra, .aviso {
+    background-color: #4b5c6b;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;    
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.but_cadastra:hover {
+    cursor: pointer;
+}
+
+.aviso {
+    display: none; 
+    background-color: #207868;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
