@@ -76,7 +76,7 @@ async function trazerTudo() {
         monta_tabela = monta_tabela +
             `<tr>
            <td width="300px">${livros[i].title}</td>
-           <td class"td_2">${livros[i].description}</td>
+           <td>${livros[i].description}</td>
          </tr>`
     }
 
