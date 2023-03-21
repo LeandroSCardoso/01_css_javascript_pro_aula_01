@@ -79,6 +79,36 @@ main {
     margin-right: 20px;
 }
 
+table {
+    background-color: #fff;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-width: 1px;
+    border-style: solid;
+  }
+  
+  td {
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+  }
+  
+.td_2 {
+  width: auto;
+}
+
+
+.lista_livros {
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
 input::placeholder {
     color: #b3c0cb;
 }
