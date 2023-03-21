@@ -62,7 +62,6 @@ async function trazerTudo() {
     // console.log(livros)
     const divResultado = document.querySelector("#traz_livros")
 
-    console.log(livros)
     let monta_tabela = `
         <table>
         <thead>
@@ -79,8 +78,6 @@ async function trazerTudo() {
            <td>${livros[i].description}</td>
          </tr>`
     }
-
-    console.log(monta_tabela);
 
     monta_tabela = monta_tabela + `</table>`
 
