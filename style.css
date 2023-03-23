@@ -85,6 +85,7 @@ table {
     border-spacing: 0;
     border-width: 1px;
     border-style: solid;
+    height: 500px;
     max-height: 500px;
     overflow-y: scroll;
   }
