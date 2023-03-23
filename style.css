@@ -85,9 +85,6 @@ table {
     border-spacing: 0;
     border-width: 1px;
     border-style: solid;
-    height: 500px;
-    max-height: 500px;
-    overflow-y: scroll;
   }
   
   td, thead {
@@ -102,6 +99,8 @@ table {
     padding: 10px;
     font-size: 18px;
     width: 100%;
+    max-height: 500px;
+    overflow-y: scroll;    
     margin-bottom: 10px;
     box-sizing: border-box;
     margin-top: 20px;
